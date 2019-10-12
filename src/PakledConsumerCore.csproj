@@ -25,6 +25,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Aspenlaub.Net.GitHub.CSharp.PakledCore" Version="1.0.7207.28637" />
+    <PackageReference Include="Aspenlaub.Net.GitHub.CSharp.PakledCore" Version="1.0.7224.22707" />
   </ItemGroup>
 </Project>
