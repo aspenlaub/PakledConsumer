@@ -28,6 +28,6 @@
     <None Remove="Test\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Aspenlaub.Net.GitHub.CSharp.PakledCore" Version="2.0.140.934" />
+    <PackageReference Include="PakledCore" Version="2.0.145.1198" />
   </ItemGroup>
 </Project>
