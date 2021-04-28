@@ -1,6 +1,6 @@
-var solution = "./src/PakledConsumerCore.sln";
-var masterDebugBinFolder = "../PakledConsumerCoreBin/Debug";
-var masterReleaseBinFolder = "../PakledConsumerCoreBin/Release";
+var solution = "./src/PakledConsumer.sln";
+var masterDebugBinFolder = "../PakledConsumerBin/Debug";
+var masterReleaseBinFolder = "../PakledConsumerBin/Release";
 var solutionSpecialSettingsDictionary = new Dictionary<string, string> {
     { "CreateAndPushPackages",  "false" }
 };

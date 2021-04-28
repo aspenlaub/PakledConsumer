@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PakledConsumerCore", "PakledConsumerCore.csproj", "{986A7458-CDAA-4F2D-91ED-66BFF7711C5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PakledConsumer", "PakledConsumer.csproj", "{986A7458-CDAA-4F2D-91ED-66BFF7711C5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PakledConsumerCore.Test", "Test\PakledConsumerCore.Test.csproj", "{DA0C3292-1BDA-4CDD-9DC1-933338C87F7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PakledConsumer.Test", "Test\PakledConsumer.Test.csproj", "{DA0C3292-1BDA-4CDD-9DC1-933338C87F7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

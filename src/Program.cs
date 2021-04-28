@@ -1,8 +1,8 @@
 ﻿using System;
-using Aspenlaub.Net.GitHub.CSharp.PakledCore;
+using Aspenlaub.Net.GitHub.CSharp.Pakled;
 using Autofac;
 
-namespace Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore {
+namespace Aspenlaub.Net.GitHub.CSharp.PakledConsumer {
     internal class Program {
         private static void Main() {
             Console.WriteLine("A small story from the star trek universe:");

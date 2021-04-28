@@ -3,24 +3,24 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore</AssemblyName>
-    <RootNamespace>Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore</RootNamespace>
+    <AssemblyName>Aspenlaub.Net.GitHub.CSharp.PakledConsumer</AssemblyName>
+    <RootNamespace>Aspenlaub.Net.GitHub.CSharp.PakledConsumer</RootNamespace>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <Deterministic>false</Deterministic>
-    <AssemblyTitle>Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore</AssemblyTitle>
-    <AssemblyProduct>Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore</AssemblyProduct>
+    <AssemblyTitle>Aspenlaub.Net.GitHub.CSharp.PakledConsumer</AssemblyTitle>
+    <AssemblyProduct>Aspenlaub.Net.GitHub.CSharp.PakledConsumer</AssemblyProduct>
     <VersionDays>$([System.DateTime]::UtcNow.Subtract($([System.DateTime]::Parse("2019-07-24"))).Days.ToString())</VersionDays>
     <VersionMinutes>$([System.Math]::Floor($([System.DateTime]::UtcNow.Subtract($([System.DateTime]::UtcNow.Date)).TotalMinutes)).ToString())</VersionMinutes>
     <Version>2.0.$(VersionDays).$(VersionMinutes)</Version>
-    <RepositoryUrl>https://github.com/aspenlaub/PakledConsumerCore.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/aspenlaub/PakledConsumer.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryBranch>master</RepositoryBranch>
-    <PackageId>PakledConsumerCore</PackageId>
+    <PackageId>PakledConsumer</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <NuspecFile>PakledConsumerCore.nuspec</NuspecFile>
+    <NuspecFile>PakledConsumer.nuspec</NuspecFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Test\**" />
@@ -28,6 +28,6 @@
     <None Remove="Test\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PakledCore" Version="2.0.611.782" />
+    <PackageReference Include="Pakled" Version="2.0.644.484" />
   </ItemGroup>
 </Project>

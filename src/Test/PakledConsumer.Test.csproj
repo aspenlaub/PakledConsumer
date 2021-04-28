@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <IsPackable>false</IsPackable>
-    <AssemblyName>Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore.Test</AssemblyName>
-    <RootNamespace>Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore.Test</RootNamespace>
+    <AssemblyName>Aspenlaub.Net.GitHub.CSharp.PakledConsumer.Test</AssemblyName>
+    <RootNamespace>Aspenlaub.Net.GitHub.CSharp.PakledConsumer.Test</RootNamespace>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <Deterministic>false</Deterministic>
-    <AssemblyTitle>Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore.Test</AssemblyTitle>
-    <AssemblyProduct>Aspenlaub.Net.GitHub.CSharp.PakledConsumerCore.Test</AssemblyProduct>
+    <AssemblyTitle>Aspenlaub.Net.GitHub.CSharp.PakledConsumer.Test</AssemblyTitle>
+    <AssemblyProduct>Aspenlaub.Net.GitHub.CSharp.PakledConsumer.Test</AssemblyProduct>
     <OutputType>Library</OutputType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" />
