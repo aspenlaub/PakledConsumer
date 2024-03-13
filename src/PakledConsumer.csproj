@@ -28,6 +28,6 @@
     <None Remove="Test\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Pakled" Version="2.0.1667.1038" />
+    <PackageReference Include="Pakled" Version="2.0.1694.1161" />
   </ItemGroup>
 </Project>
