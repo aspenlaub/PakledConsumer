@@ -1,19 +1,11 @@
 ﻿using System;
-using Aspenlaub.Net.GitHub.CSharp.Pakled;
-using Autofac;
+using System.Threading.Tasks;
 
-namespace Aspenlaub.Net.GitHub.CSharp.PakledConsumer {
-    internal class Program {
-        private static void Main() {
-            Console.WriteLine("A small story from the star trek universe:");
-            var thing = new Thing {State = ThingState.Broken};
-            Console.WriteLine($"Grebnedlog's log, star date 42723.8: we have a {thing.GetType().Name} that is {Enum.GetName(typeof(ThingState), thing.State)}");
-            var container = new ContainerBuilder().UsePakledCore().Build();
-            var goMaker = container.Resolve<IGoMaker>();
-            Console.WriteLine($"Asking the {goMaker.GetType().Name} to make it go");
-            goMaker.MakeItGo(thing);
-            Console.WriteLine($"The {thing.GetType().Name} is now {Enum.GetName(typeof(ThingState), thing.State)}");
-            Console.ReadLine();
-        }
+namespace Aspenlaub.Net.GitHub.CSharp.PakledConsumer;
+
+internal class Program {
+    private static async Task Main() {
+        await StoryWriter.WriteAStoryAsync(Console.WriteLine);
+        Console.ReadLine();
     }
 }
