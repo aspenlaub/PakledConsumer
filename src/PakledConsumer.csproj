@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <AssemblyName>Aspenlaub.Net.GitHub.CSharp.PakledConsumer</AssemblyName>
     <RootNamespace>Aspenlaub.Net.GitHub.CSharp.PakledConsumer</RootNamespace>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
@@ -28,6 +28,6 @@
     <None Remove="Test\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Pakled-PkgBranchTest" Version="2.0.1890.1233" />
+    <PackageReference Include="Pakled-PkgBranchTest" Version="2.4.1964.1419" />
   </ItemGroup>
 </Project>
