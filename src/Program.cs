@@ -1,5 +1,13 @@
 ﻿using System;
-using Aspenlaub.Net.GitHub.CSharp.PakledConsumer;
+using System.Threading.Tasks;
 
-await StoryWriter.WriteAStoryAsync(Console.WriteLine);
-Console.ReadLine();
+namespace Aspenlaub.Net.GitHub.CSharp.PakledConsumer;
+
+#pragma warning disable IDE0210
+
+internal class Program {
+    private static async Task Main() {
+        await StoryWriter.WriteAStoryAsync(Console.WriteLine);
+        Console.ReadLine();
+    }
+}
