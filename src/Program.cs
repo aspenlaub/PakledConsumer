@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Threading.Tasks;
+using Aspenlaub.Net.GitHub.CSharp.PakledConsumer;
 
-namespace Aspenlaub.Net.GitHub.CSharp.PakledConsumer;
-
-internal class Program {
-    private static async Task Main() {
-        await StoryWriter.WriteAStoryAsync(Console.WriteLine);
-        Console.ReadLine();
-    }
-}
+await StoryWriter.WriteAStoryAsync(Console.WriteLine);
+Console.ReadLine();

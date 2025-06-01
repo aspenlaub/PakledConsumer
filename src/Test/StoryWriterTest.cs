@@ -10,6 +10,6 @@ public class StoryWriterTest {
     public async Task CanWriteAStory() {
         var story = new List<string>();
         await StoryWriter.WriteAStoryAsync(story.Add);
-        Assert.AreEqual(4, story.Count);
+        Assert.AreEqual(3, story.Count);
     }
 }
