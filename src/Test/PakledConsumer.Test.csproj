@@ -18,6 +18,6 @@
     <ProjectReference Include="..\PakledConsumer.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Seoa" Version="2.0.2423.959" />
+    <PackageReference Include="Seoa" Version="2.0.2423.1203" />
   </ItemGroup>
 </Project>
